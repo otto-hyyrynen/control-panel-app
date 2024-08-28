@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding-bottom: 1em;
+}
+
+.list-container {
+  flex-grow: 3;
+  flex-direction: column;
+}
+
+.list-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+
+.list-item {
+  flex-grow: 1;
+  flex-direction: column;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+}
+
+.list-item-status {
+  padding: 0.5em;
+  background-color: green;
+}
+
+.list-item:hover {
+  cursor: pointer;
+}
+
+.control-buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 1em;
+  padding-left: 3em;
+}
+
+.control-button {
+  padding: 1em;
+  border: 1px solid #65a9da;
+  color: #65a9da;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.control-button:hover {
+  cursor: pointer;
+  background-color: #65a9da;
+  color: white;
+}
