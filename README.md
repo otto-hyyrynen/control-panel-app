@@ -27,7 +27,3 @@ Other components are stored inside features folder. ControlPanel is basically di
 
 I have not used any css preprocessors, since the scope of the project is small. I have also not included any unit tests,
 although they could be easily added with Jest and React testing library.
-
-I have tried to follow all the rules and specifications as per assignment.
-
--Otto Hyyrynen
